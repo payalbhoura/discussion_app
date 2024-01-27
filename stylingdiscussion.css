@@ -1,0 +1,139 @@
+#discussion_heading{
+    color: white;
+    font-family: 'Courier New';
+    background-color:darkcyan ;
+    font-size: 19px;
+    font-weight: 100;
+
+
+}
+
+
+#bodycontainer{
+    display:flex;
+}
+#questioncontainer{
+    width: 50%;
+    height: 40vh;
+    border-right: 1px solid grey;
+}
+
+#searchquestion{
+    display:block;
+
+}
+
+#n_button{
+   border-radius: 4px;
+    font-weight: 50; 
+    border-radius: 2px;  
+}
+
+#questionlist{
+    background-color: #F5F5F5;
+    margin-top: 30px;
+    border-top: 1px solid rgb(229, 238, 240);
+    border-radius: 4px;
+    border:1px solid grey;
+     height:70vh;
+}
+#containerInteration{
+        display: block;
+        width: 50%;
+        height: 80vh;
+        padding-left: 10px;
+        margin-left: 10px;
+}
+#heading{
+    display: block;
+    font-weight: bold; 
+    font-size: xx-large;
+    
+  
+} 
+#subheading{
+    font-size:medium;
+    display: block;
+    margin-left: 10px;
+   
+}
+
+#sub_inp{
+    display:block;
+    margin:10px;
+    margin-left: 10px;
+}
+#btn1{
+    color:white;
+    display:block;
+    background-color:rgb(0, 105, 217);
+    font-size:12px;
+    padding:10px;
+}
+
+.rightcontainer{
+ background-color:white;
+
+}
+
+
+.questionitem{
+    height:100px;
+    width:95%;
+    background-color:white;
+    padding:4px;
+    position :relative;
+    border-top-color: black;
+    border-bottom-color: black;
+    margin-top: 10px;
+}
+ 
+.sub, .ques{
+margin:4px 0px 6px 0px;
+}
+.star{
+    position:absolute;
+    right:10px;
+    bottom:10px;
+}
+.q1_data{
+    height:8vh;
+    width: 90%;
+}
+
+
+.responsecontainer{      
+    display : none;
+    width:100%;
+    height:30vh;
+    margin-left: 40px;
+    
+}
+
+.response
+{ 
+  margin-top:40px;
+}
+#response ,#add_respond,#q_heading{
+    font-size: 30px;
+    font-weight: 100px;
+}
+
+.addresponse{
+ margin-top:40px;
+
+}
+
+#add_response_here
+{
+    background-color: #F5F5F5;
+    width:60%;
+    height:25vh;
+    overflow: scroll;
+}
+#respondbutton ,#resolvebutton{
+  background-color:rgb(0, 105, 217);
+  color:white;
+  margin-left: 80%;
+
+}
